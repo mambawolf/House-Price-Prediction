@@ -264,6 +264,18 @@ del df['bus_ter']
 df.head()
 
 
+# In[43]
+
+
+df = pd.get_dummies(df) 
+
+
+# In[44]
+
+
+df.head() 
+
+
 # In[ ]:
 
 
